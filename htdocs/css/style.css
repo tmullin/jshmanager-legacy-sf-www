@@ -1,0 +1,558 @@
+
+* {
+	margin: 0px;
+	padding: 0px;
+}
+
+body {
+	background-color: white;
+	font-family: helvetica, tahoma, arial, sans-serif;
+	color: #333;
+	font-size: 100%;
+}
+
+/* General Style Info */
+abbr, acronym, .help {
+	border-bottom: 1px dotted #333;
+	cursor: help;
+}
+
+p {
+	line-height: 150%;
+	margin-top: 0.3em;
+	margin-bottom: 0.6em;
+}
+
+img {
+	border: none;
+/* Only do the htc for things that need it */
+/*	behavior: url(/css/png.htc);*/
+}
+
+.indent {
+	text-indent: 2em;
+}
+
+.u {
+	text-decoration: underline;
+}
+
+/*
+#content p {
+	text-indent: 2em;
+}
+*/
+
+#content img {
+/*	border: 1px solid #993333;*/
+	margin: 0.5em;
+/*	padding: 0.3em;*/
+}
+
+#content table img {
+	border: none;
+	margin: 0px;
+}
+
+img.floatright {
+/*	margin: 0 0 0.5em 0.5em;*/
+	float: right;
+	clear: right;
+	position: relative;
+}
+
+img.floatleft {
+/*	margin: 0 0.5em 0.5em 0;*/
+	float: left;
+	clear: left;
+	position: relative;
+}
+
+hr {
+	margin-top: 0.5em;
+	margin-bottom: 0.5em;
+}
+
+a:link {
+/*	color: #003d4c;*/
+	color: #993333;
+	text-decoration: underline;
+}
+
+a:hover, a:visited:hover {
+	color: #cc6666;
+	text-decoration: underline;
+}
+
+a:visited, a:link:visited {
+	color: #666666;
+	text-decoration: underline;
+}
+
+a img{
+	border: none;
+}
+
+h2, h3, h4, h5, h6{
+	padding-top: 0.40em;
+	padding-bottom: 0.25em;
+}
+
+h1 {
+	color: #cc3333;
+	margin: 0.3em 0;
+	font-size: 180%;
+}
+
+h2 {
+	color: #cc6666;
+/*color:#c6c65b;*/
+	margin: 0.3em 0;
+	font-size: 180%;
+}
+
+h3 {
+	color: #cc3333;
+	font-size: 140%;
+}
+
+h4 {
+	color: #cc6666;
+	font-size: 130%;
+}
+
+h5 {
+	color: #c6c65b;
+	font-size: 120%;
+}
+
+h6 {
+	color: #6699cc;
+	font-size: 110%;
+}
+
+ul {
+	margin-left: 1em;
+}
+
+li {
+	margin-top: 0.2em;
+}
+
+/* Layout */
+
+#header {
+	background-color: black;
+/*	background-image: url(../img/header_grad.gif);
+	background-repeat: repeat-x; */
+	/*width: 100%;*/
+/*	height: 110px;*/
+	white-space: nowrap;
+	padding: 0px;
+	margin: 0px;
+	/*padding: 4px 20px;*/
+	/*border-bottom: 1px solid pink;*/
+	/*border-top: 15px solid #3399cc;*/
+	/*border-left: 15px solid #3399cc;*/
+}
+
+#logo {
+	background-image: url(../img/header_grad.png);
+	padding: 0px;
+	margin: 0px;
+	text-align: center;
+}
+
+#logo a {
+	display: block;
+	background-image: url(../img/logo.png);
+	padding: 0;
+	margin: 0;
+	margin-left: auto;
+	margin-right: auto;
+	width: 150px;
+	height: 83px;
+}
+
+#logo img {
+	border: 1px solid green;
+}
+
+#header #banner {
+	margin: 0px;
+	padding: 0px;
+	vertical-align: middle;
+}
+
+#header #banner h1 {
+	color: white;
+	margin: 0px;
+	padding: 0px;
+	text-align: center;
+	white-space: nowrap;
+	vertical-align: middle;
+	line-height: 110px;
+	font-size: x-large;
+}
+
+#menu {
+	position: relative;
+	background-color: #993333;
+	color: white;
+	float: left;
+	width: 8.7em;
+	padding: 0px;
+	margin: 0px;
+/*	margin-left: -15px;
+	border-left: 15px solid green;*/
+}
+
+#menulist a {
+	display: block;
+	padding: 0px;
+	margin: 0px;
+	padding: 2px;
+	padding-left: 10px;
+	color: white;
+	text-decoration: none;
+}
+
+#menulist a:hover {
+	color: white;
+/*	background-color: #3399cc /*#6699ff*/;
+	background-image: url(../img/menu_hover_grad.gif);
+	background-position: top left;
+	background-repeat: repeat-x;
+	text-decoration: none;
+}
+
+#curmenu {
+/*	background-color: #3399cc /*#6699ff*/;
+	background-image: url(../img/menu_hover_grad.gif);
+	background-position: top left;
+	background-repeat: repeat-x;
+}
+
+#menu ul {
+	position: relative;
+	width: 100%;
+	margin: 0px;
+	padding: 0px;
+	list-style: none;
+	list-style-type: none;
+	border-top: 1px solid #cc3333;
+}
+
+#menu li {
+	margin: 0px;
+	border-bottom: 1px solid #cc3333;
+}
+
+#sflogo {
+	margin: 15px;
+	text-align: center;
+	vertical-align: middle;
+	line-height: 37px;
+}
+
+#container {
+background-color: #993333;
+clear: both;
+text-align:left;
+margin: 0px;
+padding: 0px;
+/*border-left: 15px solid #3399cc;*/
+}
+
+#content {
+position: relative;
+margin: 0px;
+margin-left: 8.7em;
+padding: 0px 40px 10px 40px;
+background-color: white;
+border-top: 1px solid white;
+}
+
+#footer {
+	background-color: #993333;
+	background-image: url(../img/footer_grad.gif);
+	background-repeat: repeat-x;
+	background-position: bottom left;
+	clear: both;
+	padding: 6px 10px;
+	color: white;
+	text-align: center;
+/*	border-left: 15px solid #3399cc;*/
+/*	border-bottom: 15px solid #3399cc;*/
+}
+
+#footer ul {
+	margin: 0.25em;
+	list-style: none;
+}
+
+#footer li {
+	margin-right: 0.25em;
+	margin-left: 0.25em;
+	display: inline;
+}
+
+#footer a {
+	color: white;
+}
+
+#footer a:hover {
+	color: #6699ee;
+	text-decoration: underline;
+}
+
+#footer p {
+	line-height: 100%;
+	margin: 0.3em;
+}
+
+/* tables */
+
+table {
+/*width: 100%;*/
+	border: 1px solid #993333;
+	border-collapse: collapse;
+	color:#333;
+	background-color: #fff;
+	padding: 0;
+	margin: 0 0 0.5em 0;
+	white-space: normal;
+}
+
+th {
+	background-image: url(../img/menu_hover_grad.gif);
+	background-position: top left;
+	background-repeat: repeat-x;
+	color: white;
+	background-color: #993333;
+	text-align: center;
+	margin: 0px; padding: 0.2em;
+}
+
+table tr td {
+	border-right: 1px solid #993333;
+	border-bottom: 1px solid #993333;
+	border-collapse: collapse;
+	vertical-align: top;
+	text-align: left;
+	margin: 0px; padding: 0.2em;
+}
+
+table tr.altRow td {
+	background: #f4f4f4;
+}
+
+table td.actions {
+	text-align: center;
+	white-space: nowrap;
+}
+
+table td.number {
+	text-align: right;
+}
+
+#cakeSqlLog td {
+text-align: left;
+padding: 4px 8px;
+background: #fff;
+border-bottom: 2px solid #ccc;
+}
+
+/* scaffold show */
+
+div.related {
+clear:both;
+display:block;
+}
+dl {
+line-height:2em;
+margin:0em 1em;
+float:left;
+width: 400px;
+}
+dt {
+font-weight: bold;
+vertical-align:top;
+}
+dd {
+margin-left:10em;
+margin-top:-2em;
+vertical-align:top;
+}
+
+/* notices and errors */
+
+#flashMessage, .error, .error_message {
+color:#900;
+/*font-size: 16px;*/
+background-color: #fff;
+margin: 8px 0px;
+font-weight: bold;
+}
+
+.error em {
+/*font-size: 18px;*/
+color: #003d4c;
+}
+.notice {
+color: #656565;
+/*font-size: 14px;*/
+background-color: #f4f4f4;
+padding: 0.5em;
+margin: 1em 0;
+display:block;
+}
+.tip {
+color: #656565;
+background-color: #ddd;
+}
+
+/* forms */
+
+form {
+/*	margin-top: 0em;*/
+}
+
+form div {
+	/*vertical-align: text-top;*/
+	margin-bottom: 0.5em;
+}
+
+form div.date{
+margin-left: 0em;
+}
+label {
+/*display: block;*/
+/*float:left;*/
+/*width: 140px;*/
+/*font-size: 14px;*/
+/*padding-right: 20px;*/
+}
+input[type=checkbox] {
+/*float: left;
+clear: left;
+margin: 2px 6px 7px 2px;*/
+}
+input {
+/*clear: both;*/
+/*display:block;*/
+/*font-size: 14px;*/
+font-family: inherit;
+}
+
+textarea {
+	font-family: monospace;
+}
+
+select {
+/*clear: both;*/
+/*vertical-align: text-bottom;*/
+/*font-size: 14px;*/
+font-family: inherit;
+}
+option {
+/*font-size: 14px;*/
+font-family: inherit;
+padding: 0 0.3em;
+}
+input[type=submit] {
+display: inline;
+/*vertical-align: bottom;*/
+}
+div.required {
+/*clear: both;*/
+color:#222;
+font-weight:bold;
+}
+div.optional {
+/*clear: both;*/
+color:#555;
+}
+div.submit {
+/*clear: both;*/
+margin-top: 40px;
+margin-left: 140px;
+}
+/* action links */
+ul.actions {
+
+}
+ul.actions li {
+	display: inline;
+}
+
+pre {
+padding: 1em;
+}
+
+/* search page stuff */
+div.searchResults {
+	margin-top: 1em;
+}
+
+div.searchResults .summary {
+	font-size: small;
+}
+
+div.searchResults .url {
+	color: #6699cc;
+}
+
+
+/* diff stuff */
+.diff-ins {
+	background-color: #afa;
+	color: black;
+}
+
+.diff-del {
+	background-color: #faa;
+	color: black;
+}
+
+.diff-legend {
+}
+
+.diff-legend dl {
+	line-height: 1em;
+	width: 100%;
+}
+
+.diff-legend dt {
+	float: left;
+	width: 0.8em;
+	height: 0.8em;
+	border: 1px solid black;
+	margin: 0.1em 0.5em 0.1em 2em;
+}
+
+.diff-legend dl, .diff-legend dd {
+	display: inline;
+	float: left;
+	padding: 0px;
+	margin: 0px;
+	margin-right: 0.5em;
+}
+
+/*
+dl {
+line-height:2em;
+margin:0em 1em;
+float:left;
+width: 400px;
+}
+dt {
+font-weight: bold;
+vertical-align:top;
+}
+dd {
+margin-left:10em;
+margin-top:-2em;
+vertical-align:top;
+}
+*/
