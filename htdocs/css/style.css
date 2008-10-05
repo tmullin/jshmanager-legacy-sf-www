@@ -311,6 +311,10 @@ border-top: 1px solid white;
 	margin: 0.3em;
 }
 
+pre {
+	overflow: auto;
+}
+
 /* tables */
 
 table {
