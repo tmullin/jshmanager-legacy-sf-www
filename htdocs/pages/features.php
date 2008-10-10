@@ -17,11 +17,12 @@ These lists are in no particular order.
 	<li>Open picture and video URLs in browser</li>
 	<li>Allow scores for multiple difficulties/instruments to be downloaded in one shot in the score download wizard</li>
 	<li>CSV score import</li>
+	<li>Internal image viewer to open image URLs from within JSHManager</li>
+	<li>Notification of new version</li>
 </ul>
 
 <h2>Features to be Implemented Relatively Soon</h2>
 <ul>
-	<li>Create a picture viewer to open picture URLs from within JSHManager</li>
 	<li>Delete scores from ScoreHero</li>
 	<li>More sorting options</li>
 	<li>System for saving/viewing SP path images and descriptions</li>

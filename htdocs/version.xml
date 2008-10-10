@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<versionInfo>
+	<latest version="0.2.3"/>
+
+	<versions>
+		<version
+			version="0.2.3"
+			oldVersion="0.2.2"
+			url="http://sourceforge.net/project/showfiles.php?group_id=240590&amp;package_id=292656&amp;release_id=632098"
+			directUrl="http://downloads.sourceforge.net/jshm/JSHManager-patch-0.2.2-to-0.2.3.252.jar"/>
+	</versions>
+</versionInfo>
