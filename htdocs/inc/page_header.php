@@ -6,7 +6,6 @@
 		<title><?=$PAGE_TITLE . ($PAGE_TITLE ? ' - ' : '') ;?>JSHManager</title>
 		<base href="http://<?=$_SERVER['SERVER_NAME'] . $PHP_SELF_PATH;?>" />
 		<link rel="stylesheet" href="css/style.css" type="text/css" />
-		<!--script src="script.js" type="text/javascript"></script-->
 	</head>
 	<body>
 
