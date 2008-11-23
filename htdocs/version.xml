@@ -5,6 +5,11 @@
 
 	<versions>
 		<version
+			version="0.2.5"
+			oldVersion="0.2.4"
+			url="http://sourceforge.net/project/showfiles.php?group_id=240590&amp;package_id=292656&amp;release_id=642440"
+			directUrl="http://downloads.sourceforge.net/jshm/JSHManager-patch-0.2.4-to-0.2.5.273.jar"/>
+		<version
 			version="0.2.4"
 			oldVersion="0.2.3"
 			url="http://sourceforge.net/project/showfiles.php?group_id=240590&amp;package_id=292656&amp;release_id=637775"
