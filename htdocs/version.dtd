@@ -1,0 +1,14 @@
+<!ELEMENT versionInfo (latest, versions)>
+<!ELEMENT latest EMPTY>
+<!ATTLIST latest
+	version CDATA #REQUIRED
+>
+
+<!ELEMENT versions (version*)>
+<!ELEMENT version EMPTY>
+<!ATTLIST version
+	version CDATA #REQUIRED
+	oldVersion CDATA #REQUIRED
+	url CDATA #REQUIRED
+	directUrl CDATA #REQUIRED
+>
