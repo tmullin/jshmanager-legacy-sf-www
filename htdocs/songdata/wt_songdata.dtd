@@ -1,0 +1,30 @@
+<!ELEMENT songData (gameTitle, date, songs, songOrders)>
+<!ELEMENT gameTitle EMPTY>
+<!ATTLIST gameTitle
+	id (GHWT | GHM | GHSH) #REQUIRED
+>
+<!ELEMENT date (#PCDATA)>
+
+<!ELEMENT songs (song*)>
+<!ELEMENT song (platforms)>
+<!ATTLIST song
+	id CDATA #REQUIRED
+	title CDATA #REQUIRED
+	expertPlus (true | false) "false"
+>
+
+<!ELEMENT platforms (platform*)>
+<!ELEMENT platform EMPTY>
+<!ATTLIST platform
+	id (XBOX360 | PS3 | PS2 | WII) #REQUIRED
+>
+
+<!ELEMENT songOrders (songOrder*)>
+<!ELEMENT songOrder EMPTY>
+<!ATTLIST songOrder
+	group (GUITAR | BASS | DRUMS | VOCALS | GUITAR_BASS) #REQUIRED
+	order CDATA #REQUIRED
+	platform (XBOX360 | PS3 | PS2 | WII) #REQUIRED
+	song CDATA #REQUIRED
+	tier CDATA #REQUIRED
+>
