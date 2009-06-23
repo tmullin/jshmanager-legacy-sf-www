@@ -1,0 +1,20 @@
+<!ELEMENT songMetaData (gameTitle, date, songs)>
+<!ELEMENT gameTitle EMPTY>
+<!ATTLIST gameTitle
+	id (GH1 | GH80 | GH2 | GH3 | GHOT | GHA | GHWT | GHM | GHSH) #REQUIRED
+>
+<!ELEMENT date (#PCDATA)>
+
+<!ELEMENT songs (song*)>
+<!ELEMENT song EMPTY>
+<!ATTLIST song
+	title CDATA #REQUIRED
+	artist CDATA #IMPLIED
+	album CDATA #IMPLIED
+	trackNum CDATA #IMPLIED
+	year CDATA #IMPLIED
+	genre CDATA #IMPLIED
+	songSource CDATA #IMPLIED
+	trackPack CDATA #IMPLIED
+	recording (M | C | R) #IMPLIED
+>
