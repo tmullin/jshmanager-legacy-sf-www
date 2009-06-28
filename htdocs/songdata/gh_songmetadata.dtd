@@ -15,6 +15,6 @@
 	year CDATA #IMPLIED
 	genre CDATA #IMPLIED
 	songSource CDATA #IMPLIED
-	trackPack CDATA #IMPLIED
+	songPack CDATA #IMPLIED
 	recording (M | C | R) #IMPLIED
 >
