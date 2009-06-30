@@ -19,13 +19,14 @@ These lists are in no particular order.
 	<li>CSV score import</li>
 	<li>Internal image viewer to open image URLs from within JSHManager</li>
 	<li>Notification of new version</li>
+	<li>Internal viewer for user-submitted SP paths in the <a href="http://wiki.scorehero.com">ScoreHero Wiki</a></li>
 </ul>
 
 <h2>Features to be Implemented Relatively Soon</h2>
 <ul>
 	<li>Delete scores from ScoreHero</li>
 	<li>More sorting options</li>
-	<li>System for saving/viewing SP path images and descriptions</li>
+	<li>System for saving/viewing SP path images and descriptions (this may be obsolete with the ability to view paths from the wiki)</li>
 	<li>Ability to view score rankings</li>
 	<li>Automatic updater</li>
 </ul>
@@ -36,5 +37,5 @@ These lists are in no particular order.
 	<li>Automatic signature creator</li>
 	<li>Submitting cutoff proofs (very low priority)</li>
 	<li>GH and RB co-op support</li>
-	<li>CSV score export</li>
+	<li>CSV/XML score export</li>
 </ul>

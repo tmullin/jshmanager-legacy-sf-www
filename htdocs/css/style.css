@@ -44,7 +44,6 @@ img {
 */
 
 #content img {
-/*	border: 1px solid #993333;*/
 	margin: 0.5em;
 /*	padding: 0.3em;*/
 }
@@ -74,7 +73,6 @@ hr {
 }
 
 a:link {
-/*	color: #003d4c;*/
 	color: #993333;
 	text-decoration: underline;
 }
@@ -106,7 +104,6 @@ h1 {
 
 h2 {
 	color: #cc6666;
-/*color:#c6c65b;*/
 	margin: 0.3em 0;
 	font-size: 180%;
 }
@@ -152,8 +149,6 @@ li {
 	margin: 0px;
 	/*padding: 4px 20px;*/
 	/*border-bottom: 1px solid pink;*/
-	/*border-top: 15px solid #3399cc;*/
-	/*border-left: 15px solid #3399cc;*/
 }
 
 #logo {
@@ -200,7 +195,7 @@ li {
 	background-color: #993333;
 	color: white;
 	float: left;
-	width: 8.7em;
+	width: 150px; /*7.5em;*/
 	padding: 0px;
 	margin: 0px;
 /*	margin-left: -15px;
@@ -213,13 +208,14 @@ li {
 	margin: 0px;
 	padding: 2px;
 	padding-left: 10px;
+	padding-right: 10px;
 	color: white;
 	text-decoration: none;
+	text-align: right;
 }
 
 #menulist a:hover {
 	color: white;
-/*	background-color: #3399cc /*#6699ff*/;
 	background-image: url(../img/menu_hover_grad.gif);
 	background-position: top left;
 	background-repeat: repeat-x;
@@ -227,7 +223,6 @@ li {
 }
 
 #curmenu {
-/*	background-color: #3399cc /*#6699ff*/;
 	background-image: url(../img/menu_hover_grad.gif);
 	background-position: top left;
 	background-repeat: repeat-x;
@@ -261,13 +256,12 @@ clear: both;
 text-align:left;
 margin: 0px;
 padding: 0px;
-/*border-left: 15px solid #3399cc;*/
 }
 
 #content {
 position: relative;
 margin: 0px;
-margin-left: 8.7em;
+margin-left: 150px; /*7.5em;*/
 padding: 0px 40px 10px 40px;
 background-color: white;
 border-top: 1px solid white;
@@ -282,8 +276,6 @@ border-top: 1px solid white;
 	padding: 6px 10px;
 	color: white;
 	text-align: center;
-/*	border-left: 15px solid #3399cc;*/
-/*	border-bottom: 15px solid #3399cc;*/
 }
 
 #footer ul {
