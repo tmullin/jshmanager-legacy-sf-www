@@ -1,7 +1,7 @@
 <!ELEMENT songMetaData (gameTitle, date, songs)>
 <!ELEMENT gameTitle EMPTY>
 <!ATTLIST gameTitle
-	id (GH1 | GH80 | GH2 | GH3 | GHOT | GHA | GHWT | GHM | GHSH) #REQUIRED
+	id (GH1 | GH80 | GH2 | GH3 | GHOT | GHA | GHWT | GHM | GHSH | GH5) #REQUIRED
 >
 <!ELEMENT date (#PCDATA)>
 
