@@ -16,7 +16,7 @@
 <!ELEMENT platforms (platform*)>
 <!ELEMENT platform EMPTY>
 <!ATTLIST platform
-	id (XBOX360 | PS3 | PS2 | WII) #REQUIRED
+	id (XBOX360 | PS3 | PS2 | WII | PC) #REQUIRED
 >
 
 <!ELEMENT songOrders (songOrder*)>
@@ -24,7 +24,7 @@
 <!ATTLIST songOrder
 	group (GUITAR | BASS | DRUMS | VOCALS | GUITAR_BASS) #REQUIRED
 	order CDATA #REQUIRED
-	platform (XBOX360 | PS3 | PS2 | WII) #REQUIRED
+	platform (XBOX360 | PS3 | PS2 | WII | PC) #REQUIRED
 	song CDATA #REQUIRED
 	tier CDATA #REQUIRED
 >
