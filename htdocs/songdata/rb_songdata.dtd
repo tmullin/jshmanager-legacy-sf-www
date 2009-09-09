@@ -1,7 +1,7 @@
 <!ELEMENT songData (gameTitle, date, songs, songOrders)>
 <!ELEMENT gameTitle EMPTY>
 <!ATTLIST gameTitle
-	id (RB1 | RB2) #REQUIRED
+	id (RB1 | RB2 | BRB) #REQUIRED
 >
 <!ELEMENT date (#PCDATA)>
 
