@@ -1,9 +1,16 @@
-<!ELEMENT songData (gameTitle, date, songs, songOrders)>
+<!ELEMENT songData (gameTitle, date, tiers, songs, songOrders)>
 <!ELEMENT gameTitle EMPTY>
 <!ATTLIST gameTitle
 	id (RB1 | RB2 | TBRB) #REQUIRED
 >
 <!ELEMENT date (#PCDATA)>
+
+<!ELEMENT tiers (tier*)>
+<!ELEMENT tier EMPTY>
+<!ATTLIST tier
+	game CDATA #REQUIRED
+	packed CDATA #REQUIRED
+>
 
 <!ELEMENT songs (song*)>
 <!ELEMENT song (platforms)>
