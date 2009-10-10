@@ -1,7 +1,7 @@
 <!ELEMENT songData (gameTitle, date, tiers, songs, songOrders)>
 <!ELEMENT gameTitle EMPTY>
 <!ATTLIST gameTitle
-	id (GHWT | GHM | GHSH | GH5) #REQUIRED
+	id (GHWT | GHM | GHSH | GH5 | GHVH) #REQUIRED
 >
 <!ELEMENT date (#PCDATA)>
 
