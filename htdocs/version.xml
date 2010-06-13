@@ -2,9 +2,14 @@
 <!DOCTYPE versionInfo SYSTEM "http://jshm.sourceforge.net/version.dtd">
 
 <versionInfo>
-	<latest version="0.3.2"/>
+	<latest version="0.3.3"/>
 
 	<versions>
+		<version
+			version="0.3.3"
+			oldVersion="0.3.2"
+			url="http://sourceforge.net/projects/jshm/files/jshm/0.3.3"
+			directUrl="http://downloads.sourceforge.net/jshm/JSHManager-patch-0.3.2-to-0.3.3.425.jar"/>
 		<version
 			version="0.3.2"
 			oldVersion="0.3.1"
